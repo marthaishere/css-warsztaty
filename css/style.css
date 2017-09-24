@@ -1,0 +1,71 @@
+/* Selektor znacznika */
+h1 {
+    background-color: red;
+}
+
+h1 {
+    background-color: bisque;
+}
+
+/* Selektor ID */
+#paragraph    {
+    color: gray;
+}
+
+/* Selektor klasy */
+.menu-item {
+    font-size: 3em;
+}
+
+/*Selektor potomstwa bezpośredniego*/
+div > span {
+    color: blue;
+}
+
+/*Seelektor potomstwa*/
+section span {
+    background-color: yellow;
+}
+
+/* Selektor bezpośredniego rodzeństwa */
+h2 + p {
+    font-size: 1.5em;
+}
+
+/*Selektor rodzeństwa - są na tym samym poziomie zagnieżdżenia*/
+h3 ~ p{
+    background-color: pink
+}
+
+/*mimo reguły kaskadowości, zawsze ważniejsza będzie regula klasy, a nad nią przeważa reguła ID*/
+
+
+h2 {
+    background-color: fuchsia !important;
+}
+
+#main-header {
+    background-color: green;
+}
+
+.header {
+    background-color: orange;
+}
+
+h2 {
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
